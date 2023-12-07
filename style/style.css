@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+button{
+    border: none;
+    outline: none;
+    background:unset;
+    cursor :pointer;
+}
+.slider{
+    width: 70%;
+    margin: 100px auto;
+    display: flex;
+    flex-direction: column;
+}
+.slider__line{
+    position: relative;
+}
+.img{
+    position: absolute;
+    width: 100%;
+}
+.slider__controls{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+button{
+    padding: 10px;
+    background-color: green;
+    font-size: 25px;
+    color: white;
+}
